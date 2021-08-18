@@ -658,6 +658,26 @@
                 $(this).addClass('btn_notouch')
             }
         })
+
+
+    </script>
+
+    <!-- scroll -->
+    <script>
+
+        $(window).scroll(function () {
+
+            const brandShow = $('.brand_icon').offset().top
+
+            if ($(window).scrollTop() >= 0) {
+                console.log('>0');
+                $('.brand_wrap img').each(function (index, item) {
+                    console.log($(item));
+                    $(item).addClass('fadedIn');
+                })
+            }
+
+        })
     </script>
 
 </body>

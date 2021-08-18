@@ -104,6 +104,27 @@
 .brand_wrap a>img{
     width: 100%;
 }
+.brand_wrap a>img.fadedIn{
+    animation: fadeInFromNone 1s cubic-bezier(.83,.27,.55,.94);
+    animation-delay: .5s;
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 
 /* --------RWD---------- */
 @media screen and (max-width: 575.98px) {
