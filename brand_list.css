@@ -1,6 +1,6 @@
 
 .display_1{
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.5rem;
 }
@@ -25,7 +25,7 @@
     font-family: 'Fira Sans', sans-serif;
 }
 .display_title_2{
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.4rem;
 }
@@ -38,7 +38,9 @@
     padding: 1.5rem;
     color: rgb(119 119 119);
     cursor: pointer;
-    box-shadow: 0 15px 20px rgba(136, 136, 136, 0.2);
+    box-shadow:  18px 18px 35px #d3d3d3,
+             -18px -18px 35px #ffffff;
+    transition: .5s;
 }
 
 .cate .cate_00:nth-child(1){
@@ -84,7 +86,7 @@
 }
 
 .section_1 .homepad_brand>img{
-    width: 25%;
+    width: 15%;
     margin: 0 1rem;
 }
 
